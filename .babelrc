@@ -1,0 +1,14 @@
+// Customize lại để babel hiểu được đường dẫn (babel-plugin-module-resolver)
+// Editors autocompletion của babel plugin (babel-plugin-module-resolver) file jsconfig.json
+{
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "~": "./src"
+                }
+            }
+        ]
+    ]
+}
